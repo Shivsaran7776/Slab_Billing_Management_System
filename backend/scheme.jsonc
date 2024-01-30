@@ -1,122 +1,148 @@
 [
-{
-    //1.loginScheme
-    "name":
     {
-        "type":"String",
-        "required":true
+        //1.loginScheme
+        "name":
+        {
+            "type":"String",
+            "required":true
+        },
+        "password":
+        {
+            "type":"String",
+            "required":true
+        }
     },
-    "password":
     {
-        "type":"String",
-        "required":true
+        //2.New Customer
+        "fname":
+        {
+            "type":"String",
+            "required":true
+        },
+        "lname":
+        {
+            "type":"String",
+            "required":true
+        },
+        "email":
+        {
+            "type":"String",
+            "required":true
+        },
+        "phone":
+        {
+            "type":"Number",
+            "required":true
+        },
+        "type":
+        {
+            "type":"String",
+            "required":true
+        },
+        "Account ID":
+        {
+            "type":"Integer",
+            "required":true
+        },
+        "location":
+        {
+            "type":"String",
+            "required":true
+        },
+        "billno":
+        {
+            "type":"Integer",
+            "required":true
+        }
+    },
+    {
+        //3.CreateTariff
+        "slabname":
+        {
+            "type":"String",
+            "required":true
+        },
+        "slabid":
+        {
+            "type":"String",
+            "required":true
+        },
+        "min-range":
+        {
+            "type":"Integer",
+            "required":true
+        },
+        "max-range":
+        {
+            "type":"Integer",
+            "required":true
+        },
+        "range-price":
+        {
+            "type":"Decimal",
+            "required":true
+        },
+        "fixed-charges":
+        {
+            "type":"Integer",
+            "required":true
+        }
+    },
+    {
+        //4.Unit Readings
+        "Account ID":
+        {
+            "type":"String",
+            "required":true
+        },
+        "Unit Consumed":
+        {
+            "type":"String",
+            "required":true
+        }
+    },
+    {
+        //5.Customer View
+        "Account Id":
+        {
+            "type":"String",
+            "required":true
+        },
+        "billno":
+        {
+            "type":"Integer",
+            "required":true
+        },
+        "type":
+        {
+            "type":"String",
+            "required":true
+        },
+        "meterSerialNo":
+        {
+            "type":"Integer",
+            "required":true
+        },
+        "Unit Consumed":
+        {
+            "type":"Integer",
+            "required":true
+        },
+        "Total Amount":
+        {
+            "type":"Integer",
+            "required":true
+        },
+        "Date Payed":
+        {
+            "type":"Date",
+            "required":true 
+        },
+        "location":
+        {
+            "type":"String",
+            "required":true
+        }
     }
-},
-{
-    //2.New Customer
-    "fname":
-    {
-        "type":"String",
-        "required":true
-    },
-    "lname":
-    {
-        "type":"String",
-        "required":true
-    },
-    "email":
-    {
-        "type":"String",
-        "required":true
-    },
-    "phone":
-    {
-        "type":"Number",
-        "required":true
-    },
-    "type":
-    {
-        "type":"String",
-        "required":true
-    },
-    "Account ID":
-    {
-        "type":"Integer",
-        "required":true
-    },
-    "location":
-    {
-        "type":"String",
-        "required":true
-    }
-},
-{
-    //3.CreateTariff
-    "slabname":
-    {
-        "type":"String",
-        "required":true
-    },
-    "slabid":
-    {
-        "type":"String",
-        "required":true
-    },
-    "min-range":
-    {
-        "type":"Integer",
-        "required":true
-    },
-    "max-range":
-    {
-        "type":"Integer",
-        "required":true
-    },
-    "range-price":
-    {
-        "type":"Decimal",
-        "required":true
-    },
-    "fixed-charges":
-    {
-        "type":"Integer",
-        "required":true
-    }
-},
-{
-    //4.Unit Readings
-    "Account ID":
-    {
-        "type":"String",
-        "required":true
-    },
-    "Unit Consumed":
-    {
-        "type":"String",
-        "required":true
-    }
-},
-{
-    //5.Customer View
-    "Account Id":
-    {
-        "type":"String",
-        "required":true
-    },
-    "Unit Consumed":
-    {
-        "type":"Integer",
-        "required":true
-    },
-    "Total Amount":
-    {
-        "type":"Integer",
-        "required":true
-    },
-    "Date Payed":
-    {
-        "type":"Date",
-        "required":true 
-    },
-}
-]
+    ]
+    
